@@ -1,0 +1,42 @@
+[main] DEBUG org.web3j.protocol.http.HttpService  - --> POST http://localhost:7545/ http/1.1
+[main] DEBUG org.web3j.protocol.http.HttpService  - Content-Type: application/json; charset=utf-8
+[main] DEBUG org.web3j.protocol.http.HttpService  - Content-Length: 66
+[main] DEBUG org.web3j.protocol.http.HttpService  - 
+[main] DEBUG org.web3j.protocol.http.HttpService  - {"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":0}
+[main] DEBUG org.web3j.protocol.http.HttpService  - --> END POST (66-byte body)
+[main] DEBUG org.web3j.protocol.http.HttpService  - <-- 200 OK http://localhost:7545/ (27ms)
+[main] DEBUG org.web3j.protocol.http.HttpService  - Content-Type: application/json
+[main] DEBUG org.web3j.protocol.http.HttpService  - Date: Thu, 31 Oct 2019 10:01:12 GMT
+[main] DEBUG org.web3j.protocol.http.HttpService  - Connection: keep-alive
+[main] DEBUG org.web3j.protocol.http.HttpService  - Transfer-Encoding: chunked
+[main] DEBUG org.web3j.protocol.http.HttpService  - 
+[main] DEBUG org.web3j.protocol.http.HttpService  - {"id":0,"jsonrpc":"2.0","result":"EthereumJS TestRPC/v2.8.0/ethereum-js"}
+[main] DEBUG org.web3j.protocol.http.HttpService  - <-- END HTTP (73-byte body)
+[main] DEBUG org.web3j.protocol.http.HttpService  - --> POST http://localhost:7545/ http/1.1
+[main] DEBUG org.web3j.protocol.http.HttpService  - Content-Type: application/json; charset=utf-8
+[main] DEBUG org.web3j.protocol.http.HttpService  - Content-Length: 63
+[main] DEBUG org.web3j.protocol.http.HttpService  - 
+[main] DEBUG org.web3j.protocol.http.HttpService  - {"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}
+[main] DEBUG org.web3j.protocol.http.HttpService  - --> END POST (63-byte body)
+[main] DEBUG org.web3j.protocol.http.HttpService  - <-- 200 OK http://localhost:7545/ (4ms)
+[main] DEBUG org.web3j.protocol.http.HttpService  - Content-Type: application/json
+[main] DEBUG org.web3j.protocol.http.HttpService  - Date: Thu, 31 Oct 2019 10:01:12 GMT
+[main] DEBUG org.web3j.protocol.http.HttpService  - Connection: keep-alive
+[main] DEBUG org.web3j.protocol.http.HttpService  - Transfer-Encoding: chunked
+[main] DEBUG org.web3j.protocol.http.HttpService  - 
+[main] DEBUG org.web3j.protocol.http.HttpService  - {"id":1,"jsonrpc":"2.0","result":"0x0"}
+[main] DEBUG org.web3j.protocol.http.HttpService  - <-- END HTTP (39-byte body)
+[main] DEBUG org.web3j.protocol.http.HttpService  - --> POST http://localhost:7545/ http/1.1
+[main] DEBUG org.web3j.protocol.http.HttpService  - Content-Type: application/json; charset=utf-8
+[main] DEBUG org.web3j.protocol.http.HttpService  - Content-Length: 60
+[main] DEBUG org.web3j.protocol.http.HttpService  - 
+[main] DEBUG org.web3j.protocol.http.HttpService  - {"jsonrpc":"2.0","method":"eth_gasPrice","params":[],"id":2}
+[main] DEBUG org.web3j.protocol.http.HttpService  - --> END POST (60-byte body)
+[main] DEBUG org.web3j.protocol.http.HttpService  - <-- 200 OK http://localhost:7545/ (4ms)
+[main] DEBUG org.web3j.protocol.http.HttpService  - Content-Type: application/json
+[main] DEBUG org.web3j.protocol.http.HttpService  - Date: Thu, 31 Oct 2019 10:01:12 GMT
+[main] DEBUG org.web3j.protocol.http.HttpService  - Connection: keep-alive
+[main] DEBUG org.web3j.protocol.http.HttpService  - Transfer-Encoding: chunked
+[main] DEBUG org.web3j.protocol.http.HttpService  - 
+[main] DEBUG org.web3j.protocol.http.HttpService  - {"id":2,"jsonrpc":"2.0","result":"0x4a817c800"}
+[main] DEBUG org.web3j.protocol.http.HttpService  - <-- END HTTP (47-byte body)
